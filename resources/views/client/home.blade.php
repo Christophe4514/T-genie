@@ -48,40 +48,52 @@
         </div>
         <div class="row mx-auto ftco-animate">
             <div class="col-sm-3">
-                <div class="card bg-primary">
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#">
+                    <div class="card bg-primary">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text text-dark">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-sm-3">
-                <div class="card bg-danger">
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#">
+                    <div class="card bg-danger">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text text-dark">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-sm-3">
-                <div class="card bg-info">
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#">
+                    <div class="card bg-info">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text text-dark">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-sm-3">
-                <div class="card bg-warning">
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#">
+                    <div class="card bg-warning">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text text-dark">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
-    <section class="bg-light ftco-section">
+    <section class="bg-secondary ftco-section">
         <div class="container ftco-animate">
             <div class="text-center row slider-text justify-content-center align-items-center">
                 <h3 class="mb-2 p-3 heading text-success text-center">A Propos de Nous</h3>
@@ -95,67 +107,59 @@
             </div>
         </div>
     </section>
-    <section class="ftco-section bg-danger">
+    <section class="ftco-section bg-light">
         <div class="container">
             <div class="text-center">
                 <h3 class="heading">Nous avons des Valeurs </h3>
             </div>
             <div class="container" data-aos="fade-up">
                 <div class="row justify-content-between">
-                  <div class="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                    <img src="frontend/images/atg/Logo.png" class="img-fluid" alt="" data-aos="zoom-in">
-                  </div>
-                  <div class="col-lg-6 pt-5 pt-lg-0">
-                    <p data-aos="fade-up" data-aos-delay="100">
-                      4 principes nous permettent d'assurer l'harmonie que ce soit au sein
-                      de notre structure ou avec nos clients.
-                    </p>
-                    <div class="row">
-                      <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <i class="bi bi-check2-circle"></i>
-                        <h4>La Créativité</h4>
-                        <p>Originalité dans nos propositions de solutions aux problèmes posés.</p>
-                      </div>
-                      <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <i class="bi bi-calendar2-heart"></i>
-                        <h4>La passion</h4>
-                        <p>Nous accomplissons notre travail avec amour et énergie</p>
-                      </div>
-        
-                      <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <i class="bi bi-people"></i>
-                        <h4>La Collaboration</h4>
-                        <p>Mise en commun de nos idées et connaissances pour atteindre nos objectifs de la manière la plus
-                          efficace et efficiente.</p>
-                      </div>
-        
-                      <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <i class="bx bx-receipt"></i>
-                        <h4>La rigueur</h4>
-                        <p>Travail avec méthode et professionnalisme pour assurer l'excellence et le respect de nos engagements
-                        </p>
-                      </div>
-        
+                    <div class="col-lg-5 d-flex align-items-center justify-content-center about-img">
+                        <img src="frontend/images/atg/Logo.png" class="img-fluid" alt="" data-aos="zoom-in">
                     </div>
-                    <!-- <div class="mt-4 text-left">
-                      <button type="button" class="btn btn-outline-danger " data-aos="fade-up"><a class="" href="apropos.html">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-chevron-double-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                              d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
-                            <path fill-rule="evenodd"
-                              d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
-                          </svg> A propos</a></button>
-        
-                    </div> -->
-                  </div>
+                    <div class="col-lg-6 pt-5 pt-lg-0">
+                        <p class="text-dark">
+                            <i class="icon-external-link text-warning"></i>
+                            4 principes nous permettent d'assurer l'harmonie que ce soit au sein
+                            de notre structure ou avec nos clients.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <h4>La Créativité</h4>
+                                <i class="icon-edit text-warning"></i>
+                                <p>Originalité dans nos propositions de solutions aux problèmes posés.</p>
+                            </div>
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                <h4>La passion</h4>
+                                <i class="icon-exchange text-warning"></i>
+                                <p>Nous accomplissons notre travail avec amour et énergie</p>
+                            </div>
+
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                                <i class="bi bi-people"></i>
+                                <h4>La Collaboration</h4>
+                                <i class="icon-share text-warning"></i>
+                                <p>Mise en commun de nos idées et connaissances pour atteindre nos objectifs de la manière
+                                    la plus
+                                    efficace et efficiente.</p>
+                            </div>
+
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                <i class="bx bx-receipt"></i>
+                                <h4>La rigueur</h4>
+                                <i class="icon-cogs text-warning"></i>
+                                <p>Travail avec méthode et professionnalisme pour assurer l'excellence et le respect de nos
+                                    engagements
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-        </div>
+            </div>
     </section>
     <section id="about" class="about section">
-        
-      </section><!-- End About Section -->
+
+    </section><!-- End About Section -->
     <section class="ftco-section bg-secondary">
         <div class="container">
             <div class="text-center">
@@ -166,7 +170,7 @@
                 <div class="col-sm-3">
                     <div class="card bg-primary">
                         <div class="card-body">
-                            <h5 class="card-title">Réalisation des Etudes avant Projet <br> <br> <br></h5>
+                            <h5 class="card-title">Réalisation des Etudes avant Projet <br> <br></h5>
                             {{-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> --}}
                         </div>
                     </div>
@@ -174,7 +178,7 @@
                 <div class="col-sm-3">
                     <div class="card bg-danger">
                         <div class="card-body">
-                            <h5 class="card-title">Elaboration des Etudes de projets <br><br> <br></h5>
+                            <h5 class="card-title">Elaboration des Etudes de projets <br> <br></h5>
                             {{-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> --}}
                         </div>
                     </div>
@@ -182,7 +186,7 @@
                 <div class="col-sm-3">
                     <div class="card bg-info">
                         <div class="card-body">
-                            <h5 class="card-title">Calcul des Matériaux <br> <br><br></h5>
+                            <h5 class="card-title">Calcul des Matériaux <br><br></h5>
                             {{-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> --}}
                         </div>
                     </div>
@@ -190,13 +194,13 @@
                 <div class="col-sm-3">
                     <div class="card bg-warning">
                         <div class="card-body">
-                            <h5 class="card-title">Direction des Travaux et Organisation de chantier</h5>
+                            <h5 class="card-title">Direction des Travaux et Organisation ...</h5>
                             {{-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="card bg-info">
+                    <div class="card bg-light">
                         <div class="card-body">
                             <h5 class="card-title">Vérification de la Conformité et des Normes</h5>
                             {{-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> --}}
@@ -212,7 +216,7 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="card bg-primary">
+                    <div class="card bg-dark">
                         <div class="card-body">
                             <h5 class="card-title">Développement des Applications Web et Mobil <br></h5>
                             {{-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> --}}
@@ -230,16 +234,24 @@
             </div>
         </div>
     </section>
-    <section class="ftco-section bg-light">
-        <h3 class=" text-center"><strong>Nous vous accompagnons dans la réalisation et en réalisants vos projets</strong>
-        </h3>
-        <div class="container p-5">
-            <div class="card text-center ms-15" style="width: 22rem; margin-left:18%">
-                <div class="card-body">
-                    <h5 class="card-title text-center text-danger"> > Béneficiez d'un service qualifié</h5>
-                    <p class="card-text">Avec nos experts dans différents dommaines de travail, prenez contact pour votre
-                        projet</p>
-                    <a href="#" class="btn btn-primary center">Prendre Contact</a>
+    <section class="ftco-section bg-light ">
+        <div class="row justify-content-between container">
+            <div class="col-lg-5 d-flex align-items-center justify-content-center about-img container">
+                <h3 class=" text-center"><strong>Nous vous accompagnons dans la réalisation et en réalisants vos
+                        projets</strong>
+                </h3>
+            </div>
+            <div class="col-lg-6 pt-5 pt-lg-0 container">
+                <div class="p-5">
+                    <div class="card text-center ms-15">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-danger"> > Béneficiez d'un service qualifié</h5>
+                            <p class="card-text">Avec nos experts dans différents dommaines de travail, prenez contact pour
+                                votre
+                                projet</p>
+                            <a href="#" class="btn btn-primary center">Prendre Contact</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -249,47 +261,35 @@
             <div class="text-center">
                 <h3 class="heading ftco-animate">BIENTOT DISPONIBLE</h3>
             </div>
-            <div class="card  bg-secondary ftco-animate">
-                <div class="card-body">
-                    <h5 class="card-title text-center">L'Agropastorale</h5>
-                    <p class="card-text">L'<strong>ATG</strong> ensemble avec l'agrovetérinaire chercheur <span><strong
-                                class="text-warning">Ir. Chirac WESE</strong></span>
-                        integrons l'agropastorale, pour optimiser la production des bétailles et etre livrable de façon
-                        régulier ... .</p>
-                    {{-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --}}
+            <div class="row justify-content-between container">
+                <div class="col-lg-5 d-flex align-items-center justify-content-center about-img container">
+                    <img src="frontend/images/atg/porch.png" class="card-img-bottom" alt="porchérie">
                 </div>
-                <img src="frontend/images/atg/porc2.JPG" class="card-img-bottom" alt="porchérie">
-                <!-- Button trigger modal -->
-                <div>
-                    <p class="text-center"><button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                            En Savoir Plus
-                        </button></p>
+                <div class="col-lg-6 pt-5 pt-lg-0 container">
+                    <div class="p-5">
+                        <div class="card text-center ms-15">
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                    {{-- <button type="button" class="btn btn-primary">Save changes</button> --}}
-                                </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">L'Agropastorale</h5>
+                                <p class="card-text text-center">L'<strong>ATG</strong> ensemble avec l'agrovetérinaire
+                                    chercheur
+                                    <span><strong class="text-warning">Ir. Chirac WESE</strong></span>
+                                    integrons l'agropastorale, pour optimiser la production des bétailles et etre livrable
+                                    de façon
+                                    régulier ... . <br>
+                                    Avec nos 5 porcs, nous traillons pour optimiser et proposer une meilleur production de
+                                    bétaille pour
+                                    la ville de kinshasa dans un premier temps.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                {{-- <p class="text-center"><a href="#" class="btn btn-primary ">En Savoir Plus</a></p> --}}
             </div>
+           <p class="text-center"><a href="#" class="btn btn-primary" data-toggle="modal"
+                    data-target="#ModalPorch">
+                    <span></span> {{ __('En Savoir Plus ') }}<i class="fa-sharp fa fa-plus"></i>
+                </a></p> 
         </div>
     </section>
     <section class="ftco-section ftco-category ftco-no-pt bg-danger">
@@ -440,7 +440,7 @@
                             <div class="text-center text-md-left">
                                 <p class="text-center">
                                     <a class="btn btn-primary"
-                                    onclick="document.getElementById('contact-form').submit();">Envoyer</a>
+                                        onclick="document.getElementById('contact-form').submit();">Envoyer</a>
                                 </p>
                             </div>
                             <div class="status"></div>
@@ -460,6 +460,12 @@
 
                                 <li><i class="fas fa-envelope mt-4 fa-2x"></i>
                                     <p>info@atg.com</p>
+                                </li>
+                                <li>
+                                    <iframe style="width: 100%;"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.425340957216!2d15.30458301412069!3d-4.330949547744107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a310b65998db7%3A0x5ed2db62b0437823!2sOrange%20Digital%20Center!5e0!3m2!1sen!2scd!4v1673292383469!5m2!1sen!2scd"
+                                        width="600" height="450" style="border:0;" allowfullscreen=""
+                                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </li>
                             </ul>
                         </div>
@@ -564,9 +570,13 @@
         </div>
     </section>
 
-    <hr>
-
     <section class="ftco-section ftco-partner">
+        <div class="text-center ">
+            <h3 class="text-success my-3">
+                Nos Partenaires
+            </h3>
+        </div>
+        <br>
         <div class="container">
             <div class="row">
                 <div class="col-sm ftco-animate">
@@ -574,11 +584,11 @@
                             alt="Colorlib Template"></a>
                 </div>
                 <div class="col-sm ftco-animate">
-                    <a href="#" class="partner"><img src="frontend/images/partner-2.png" class="img-fluid"
+                    <a href="#" class="partner"><img src="frontend/images/atg/odc.png" class="img-fluid"
                             alt="Colorlib Template"></a>
                 </div>
                 <div class="col-sm ftco-animate">
-                    <a href="#" class="partner"><img src="frontend/images/partner-3.png" class="img-fluid"
+                    <a href="#" class="partner"><img src="frontend/images/atg/inbtp.png" class="img-fluid"
                             alt="Colorlib Template"></a>
                 </div>
                 <div class="col-sm ftco-animate">
@@ -586,7 +596,7 @@
                             alt="Colorlib Template"></a>
                 </div>
                 <div class="col-sm ftco-animate">
-                    <a href="#" class="partner"><img src="frontend/images/partner-5.png" class="img-fluid"
+                    <a href="#" class="partner"><img src="frontend/images/atg/unikin.png" class="img-fluid"
                             alt="Colorlib Template"></a>
                 </div>
             </div>
