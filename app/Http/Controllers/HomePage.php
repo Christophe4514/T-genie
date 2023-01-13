@@ -11,34 +11,4 @@ class HomePage extends Controller
     {
         return view('client.home');
     }
-
-    public function shop()
-    {
-        return view('client.shop');
-    }
-
-    public  function cart()
-    {
-        return view('client.cart');
-    }
-
-    public  function paiement()
-    {
-        return view('client.paiement');
-    }
-
-    public  function login()
-    {
-        return view('client.login');
-    }
-
-    public  function signup()
-    {
-        return view('client.signup');
-    }
-
-    public  function orders()
-    {
-        return view('admin.orders');
-    }
 }

@@ -14,17 +14,5 @@ use App\Http\Controllers\PublicationController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 Route::get('/', [HomePage::class, 'home']);
-Route::get('/shop', [HomePage::class, 'shop']);
-Route::get('/cart', [HomePage::class, 'cart']);
-Route::get('/paiement', [HomePage::class, 'paiement']);
-Route::get('/login', [HomePage::class, 'login']);
-Route::get('/signup', [HomePage::class, 'signup']);
-Route::get('/orders', [HomePage::class, 'orders']);
-
-
 Route::resource('publication', PublicationController::class);

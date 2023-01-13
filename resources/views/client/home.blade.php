@@ -107,48 +107,78 @@
             </div>
         </div>
     </section>
-    <section class="ftco-section bg-light">
+    <section class="ftco-section bg-transparent">
         <div class="container">
             <div class="text-center">
-                <h3 class="heading">Nous avons des Valeurs </h3>
+                <h3 class="heading text-success" style="font-size: 2rem;">Nous avons des Valeurs </h3>
             </div>
             <div class="container" data-aos="fade-up">
                 <div class="row justify-content-between">
                     <div class="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                        <img src="frontend/images/atg/Logo.png" class="img-fluid" alt="" data-aos="zoom-in">
+                        <img src="frontend/images/atg/logo1.png" class="img-fluid" alt="" data-aos="zoom-in">
                     </div>
                     <div class="col-lg-6 pt-5 pt-lg-0">
-                        <p class="text-dark">
-                            <i class="icon-external-link text-warning"></i>
+                        <p class="text-dark" style="font-size: 1.2rem;">
+                            {{-- <i class="icon-external-link text-danger"></i> --}}
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor"
+                                class="bi bi-signpost-split-fill text-danger" viewBox="0 0 16 16">
+                                <path
+                                    d="M7 16h2V6h5a1 1 0 0 0 .8-.4l.975-1.3a.5.5 0 0 0 0-.6L14.8 2.4A1 1 0 0 0 14 2H9v-.586a1 1 0 0 0-2 0V7H2a1 1 0 0 0-.8.4L.225 8.7a.5.5 0 0 0 0 .6l.975 1.3a1 1 0 0 0 .8.4h5v5z" />
+                            </svg>
                             4 principes nous permettent d'assurer l'harmonie que ce soit au sein
                             de notre structure ou avec nos clients.
                         </p>
                         <div class="row">
                             <div class="col-md-6 ">
-                                <h4>La Créativité</h4>
-                                <i class="icon-edit text-warning"></i>
-                                <p>Originalité dans nos propositions de solutions aux problèmes posés.</p>
+                                <h4 style="font-size: 2rem;">La Créativité</h4>
+                                {{-- <i class="icon-edit text-warning"></i> --}}
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor"
+                                    class="bi bi-boxes text-danger" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066ZM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567L4.25 7.504ZM7.5 9.933l-2.75 1.571v3.134l2.75-1.571V9.933Zm1 3.134 2.75 1.571v-3.134L8.5 9.933v3.134Zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567-2.742 1.567Zm2.242-2.433V3.504L8.5 5.076V8.21l2.75-1.572ZM7.5 8.21V5.076L4.75 3.504v3.134L7.5 8.21ZM5.258 2.643 8 4.21l2.742-1.567L8 1.076 5.258 2.643ZM15 9.933l-2.75 1.571v3.134L15 13.067V9.933ZM3.75 14.638v-3.134L1 9.933v3.134l2.75 1.571Z" />
+                                </svg>
+                                <p style="font-size: 1.2rem;">Originalité dans nos propositions de solutions aux problèmes
+                                    posés.</p>
                             </div>
                             <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                <h4>La passion</h4>
-                                <i class="icon-exchange text-warning"></i>
-                                <p>Nous accomplissons notre travail avec amour et énergie</p>
+                                <h4 style="font-size: 2rem;">La passion</h4>
+                                {{-- <i class="icon-exchange text-warning"></i> --}}
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor"
+                                    class="bi bi-house-heart-fill text-danger" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.707L8 2.207 1.354 8.853a.5.5 0 1 1-.708-.707L7.293 1.5Z" />
+                                    <path
+                                        d="m14 9.293-6-6-6 6V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9.293Zm-6-.811c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.691 0-5.018Z" />
+                                </svg>
+                                <p style="font-size: 1.2rem;">Nous accomplissons notre travail avec amour et énergie</p>
                             </div>
 
                             <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                                 <i class="bi bi-people"></i>
-                                <h4>La Collaboration</h4>
-                                <i class="icon-share text-warning"></i>
-                                <p>Mise en commun de nos idées et connaissances pour atteindre nos objectifs de la manière
+                                <h4 style="font-size: 1.8rem;">La Collaboration</h4>
+                                {{-- <i class="icon-share text-warning"></i> --}}
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="25"
+                                    fill="currentColor" class="bi bi-arrows-fullscreen text-danger" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707zm0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707zm-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707z" />
+                                </svg>
+                                <p style="font-size: 1.2rem;">Mise en commun de nos idées et connaissances pour atteindre
+                                    nos objectifs de la manière
                                     la plus
                                     efficace et efficiente.</p>
                             </div>
 
                             <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
                                 <i class="bx bx-receipt"></i>
-                                <h4>La rigueur</h4>
-                                <i class="icon-cogs text-warning"></i>
-                                <p>Travail avec méthode et professionnalisme pour assurer l'excellence et le respect de nos
+                                <h4 style="font-size: 2rem;">La rigueur</h4>
+                                {{-- <i class="icon-cogs text-danger" style="width: 35px; height:25px;"></i> --}}
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="25"
+                                    fill="currentColor" class="bi bi-hourglass-top text-danger" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 14.5a.5.5 0 0 0 .5.5h11a.5.5 0 1 0 0-1h-1v-1a4.5 4.5 0 0 0-2.557-4.06c-.29-.139-.443-.377-.443-.59v-.7c0-.213.154-.451.443-.59A4.5 4.5 0 0 0 12.5 3V2h1a.5.5 0 0 0 0-1h-11a.5.5 0 0 0 0 1h1v1a4.5 4.5 0 0 0 2.557 4.06c.29.139.443.377.443.59v.7c0 .213-.154.451-.443.59A4.5 4.5 0 0 0 3.5 13v1h-1a.5.5 0 0 0-.5.5zm2.5-.5v-1a3.5 3.5 0 0 1 1.989-3.158c.533-.256 1.011-.79 1.011-1.491v-.702s.18.101.5.101.5-.1.5-.1v.7c0 .701.478 1.236 1.011 1.492A3.5 3.5 0 0 1 11.5 13v1h-7z" />
+                                </svg>
+                                <p style="font-size: 1.2rem;">Travail avec méthode et professionnalisme pour assurer
+                                    l'excellence et le respect de nos
                                     engagements
                                 </p>
                             </div>
@@ -286,16 +316,16 @@
                     </div>
                 </div>
             </div>
-           <p class="text-center"><a href="#" class="btn btn-primary" data-toggle="modal"
+            <p class="text-center"><a href="#" class="btn btn-primary" data-toggle="modal"
                     data-target="#ModalPorch">
                     <span></span> {{ __('En Savoir Plus ') }}<i class="fa-sharp fa fa-plus"></i>
-                </a></p> 
+                </a></p>
         </div>
     </section>
     <section class="ftco-section ftco-category ftco-no-pt bg-danger">
         <div class="container ftco-animate">
             <div class="text-center">
-                <h3 class="heading p-3">Nous avons déjà construit et développer </h3>
+                <h3 class="heading p-3">Nos Réalisations</h3>
             </div>
             <div class="card-group p-3 ftco-animate">
                 <div class="card border-4 border-info">
