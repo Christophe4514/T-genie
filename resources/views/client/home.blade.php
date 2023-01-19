@@ -115,7 +115,7 @@
             <div class="container" data-aos="fade-up">
                 <div class="row justify-content-between">
                     <div class="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                        <img src="frontend/images/atg/logo1.png" class="img-fluid" alt="" data-aos="zoom-in">
+                        <img src="frontend/images/atg/logoC.png" class="img-fluid" alt="" data-aos="zoom-in">
                     </div>
                     <div class="col-lg-6 pt-5 pt-lg-0">
                         <p class="text-dark" style="font-size: 1.2rem;">
